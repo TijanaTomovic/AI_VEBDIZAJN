@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Marko Marković",
+      "email": "marko@example.com",
+      "passwordHash": "5f4dcc3b5aa765d61d8327deb882cf99"  
+    },
+    {
+      "id": 2,
+      "name": "Jelena Jovanović",
+      "email": "jelena@example.com",
+      "passwordHash": "25d55ad283aa400af464c76d713c07ad"  
+    },
+    {
+        "id": 3,
+        "name": "Tijana",
+        "email": "tijana@example.com",
+        "passwordHash": "6c1b2a330c9b2f4b3e62cc8f60edb08c6fdb8be1bce6bdf1c634f10ec309b178"  
+      }
+]

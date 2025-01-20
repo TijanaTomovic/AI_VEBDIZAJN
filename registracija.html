@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <div class="col-8 text-center">
+                    <h1 class="main-title" data-key="main-title">AI SVET</h1>
+                </div>
+                <div class="col-2">
+                    <nav class="navbar navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="navbar-collapse collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><a class="nav-link" href="index.html" data-key="nav-home">Početna</a></li>
+                                <li class="nav-item"><a class="nav-link" href="primene.html" data-key="nav-uses">Primene AI</a></li>
+                                <li class="nav-item"><a class="nav-link" href="novosti.html" data-key="nav-news">Novosti</a></li>
+                                <li class="nav-item"><a class="nav-link" href="chat.html" data-key="nav-chat">Chat sa AI</a></li>
+                                <li class="nav-item"><a class="nav-link" href="kontakt.html" data-key="nav-contact">Kontakt</a></li>
+                                <li class="nav-item"><a class="nav-link" href="onama.html" data-key="nav-about">O nama</a></li>
+                                <li class="nav-item"><a class="nav-link login-btn" href="login.html" data-key="nav-login">Prijavite se</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="language-buttons">
+                <button id="enBtn">EN</button>
+                <button id="srBtn">SR</button>
+            </div>
+        </div>
+    </header>
+
+    
+   
+    <div class="container text-center">
+        <h1 data-key="registracija-title">Registracija</h1>
+        <br>
+        <br>
+        <form>
+            <div class="form-group">
+                <label for="imePrezime" data-key="registracija-imePrezime">Ime i Prezime</label>
+                <input type="text" class="form-control" id="imePrezime" placeholder="Unesite ime i prezime" data-key="registracija-imePrezime-placeholder">
+            </div>
+            <div class="form-group">
+                <label for="email" data-key="registracija-email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Unesite email adresu" data-key="registracija-email-placeholder">
+            </div>
+            <div class="form-group">
+                <label for="lozinka" data-key="registracija-lozinka">Lozinka</label>
+                <input type="password" class="form-control" id="lozinka" placeholder="Unesite lozinku" data-key="registracija-lozinka-placeholder">
+            </div>
+            <div class="form-group">
+                <label for="potvrdaLozinka" data-key="registracija-potvrdaLozinka">Potvrdite lozinku</label>
+                <input type="password" class="form-control" id="potvrdaLozinka" placeholder="Potvrdite lozinku" data-key="registracija-potvrdaLozinka-placeholder">
+            </div>
+            <button type="submit" class="btn btn-primary" data-key="registracija-submit">Registrujte se</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-content">
+                <h4 data-key="footer-title">Mapa sajta</h4>
+                <ul class="footer-nav">
+                    <li><a href="index.html" data-key="nav-home">Početna</a></li>
+                    <li><a href="primene.html" data-key="nav-uses">Primene AI</a></li>
+                    <li><a href="novosti.html" data-key="nav-news">Novosti</a></li>
+                    <li><a href="chat.html" data-key="nav-chat">Chat sa AI</a></li>
+                    <li><a href="kontakt.html" data-key="nav-contact">Kontakt</a></li>
+                    <li><a href="login.html" data-key="nav-login">Login</a></li>
+                    <li><a href="registracija.html" data-key="nav-register">Registracija</a></li>
+                    <li><a href="onama.html" data-key="nav-about">O nama</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <p data-key="footer-follow-us">Pratite nas i na:</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon" title="Instagram" data-key="social-instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon" title="Facebook" data-key="social-facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-icon" title="Twitter" data-key="social-twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="footer-bottom">
+                <p data-key="footer-rights">&copy; AI Svet, Sva prava zadržana, 2025</p>
+            </div>
+            
+        </div>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
